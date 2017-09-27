@@ -1,0 +1,144 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%
+}
+
+body {
+    background-color: grey;
+}
+body{
+    display:block;
+}
+header {
+    text-align: center;
+
+}
+
+header {
+    background-image: url("https://s3-eu-west-1.amazonaws.com/london-marathon/vmlm2014/live/uploads/images/c5a9bce1095ea8416429a98f51f20c5b22c4/normal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 150px;
+
+}
+
+.menu {
+    width: 500px;
+    height: 150px;
+    margin: 30px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 14, 11);
+    float: left;
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    top: 200px;
+
+}
+
+
+
+
+.opdracht {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    border-top: double 3px #8e8e8e;
+    text-align: center;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 0px 30px;
+    list-style-type: none;
+    border-bottom: solid 1px #8e8e8e;
+}
+
+nav ul li a {
+    font-size: 20pt;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+    text-shadow: 0 1px 1px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: all 1.0s ease-in-out;
+    -moz-transition: all 1.0s ease-in-out;
+    -o-transition: all 1.0s ease-in-out;
+    transition: all 1.0s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: blue;
+    background: #26c9ff;
+}
+
+.box1{
+    width: 700px;
+    height: 400px;
+    margin: 50px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #ff0e0b;
+    float: right;
+    display: inline-block;
+
+
+}
+
+main{
+    text-align: center;
+}
+
+.filmpje {
+    width: 500px;
+    height: 230px;
+    background-color: red;
+    position: absolute;
+    top: 400px;
+    left: 45px;
+}
+
+
+.footer {
+    width: 1240px;
+    height: 50px;
+    background-color: red;
+    z-index: 1;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    text-align: center;
+}
+
+.redbull{
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+
+    right: 10px;
+}
